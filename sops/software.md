@@ -5,13 +5,13 @@
 
 ## Inputs (the card must have these)
 - Title, description, category.
-- Requirements (prewritten on the card): loads, core flow works, no login button / no site chrome inside the app, own card art.
+- Requirements (prewritten on the card): loads, core flow works, login allowed where the app needs it, no site chrome inside the app, own card art.
 
 ## Steps
 1. **Day 2 — First working build.** The app loads and the main screen renders. Upload checkpoint 1. Checkpoint proof must show real progress, not the same file re-uploaded.
 2. **Day 4 — Core flow working.** The main thing the app does works end to end. Upload checkpoint 2.
 3. **Day 7 — Polish + live check.** Polish, edge cases, mobile. Then run the checks below, upload, and live-check it.
-4. **No login inside the app.** One central login only — no login buttons in the app, no site nav/chrome inside software apps. (LeonLink ID law.)
+4. **Login allowed where the app needs it.** Apps may have their own sign-in when needed; still no site nav/chrome inside software apps.
 5. **White-label ready.** Where the job calls for it, options and features are set by the seller, not fixed monthly tiers.
 6. **Art.** Own card art (.jpg/.png, in `/img/cards/`). No fallback or placeholder image, ever.
 7. **Build the page.** `.html`, lowercase hyphenated file name matching the slug. Apps go in their agreed folder.
@@ -27,7 +27,7 @@
 - [ ] All links on the page work.
 - [ ] Same site design / header-footer present.
 - [ ] App loads; core flow works.
-- [ ] No login button / no site chrome inside the app.
+- [ ] Login only where the app needs it; no site chrome inside the app.
 - [ ] Correct file type (.html; images .jpg/.png only) and folder.
 - [ ] Meta / og / canonical present.
 - [ ] No duplicate title or slug.
